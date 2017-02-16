@@ -1,0 +1,131 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+main{
+  margin:auto;
+  width:402px;
+}
+h1 {
+  font-weight: bold;
+  color: pink;
+}
+header{
+  text-align:center;
+}
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+ 
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 130px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+  text-align:center;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
+.chooseside{
+    position: relative;
+    display: inline-block;
+    vertical-align: sub;
+    line-height: normal;
+}
+.side {
+    padding: 10px;
+    position: relative;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.side:hover {
+    background: black;
+    color: white;
+}
+#screen{
+  min-height: 393px;
+  text-align:center;
+  clear:both;
+}
+.grid {
+    width: 33.33%;
+    float: left;
+    padding: 45px 0px 0px 0px;
+    border: 1px dashed lightgrey;
+    cursor: pointer;
+    font-size: 27px;
+    height: 130px;
+}
+.grid:hover {
+    background: lightblue;
+    border: 1px dashed lightgrey;
+}
+#screen .welcome{
+  border: black 1px dashed;
+  min-height: 393px;
+  line-height: 393px;
+  text-align:center;
+}
+.win {
+    color: #ff395c;
+    background: rgba(189, 231, 245, 0.59);
+    transition: all 0.45s;
+    /* transform: scale(1.1) !important; */
+    font-size: 2.2em;
+    opacity: 1 !important;
+}
+.faded{
+    opacity: 0.3;
+    transform: scale(0.9);
+}
